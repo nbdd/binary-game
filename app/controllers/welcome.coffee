@@ -8,9 +8,9 @@ class Welcome extends Spine.Controller
     super
     @log("constructed...")
 
-  render: ->
-    @html require('views/welcome')
-    @log('rendered')
+    render: ->
+      @html require('views/welcome')
+      @log('rendered')
 
   # Spine shortcut for adding event listeners
   # events:
