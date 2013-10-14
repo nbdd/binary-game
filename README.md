@@ -39,11 +39,11 @@ Level class:
 
 #### Levels example:
 Level   Type      Attempts   Digits
-1-1     reading   3         1
-1-2     writing   3         1
-1-3     reading   3         2
-1-4     writing   3         2
-1-5     reading   3         4
-1-6     writing   3         4
-1-7     reading   3         4
-1-8     writing   3         4
+- 1-1     reading   3         1
+- 1-2     writing   3         1
+- 1-3     reading   3         2
+- 1-4     writing   3         2
+- 1-5     reading   3         4
+- 1-6     writing   3         4
+- 1-7     reading   3         4
+- 1-8     writing   3         4
