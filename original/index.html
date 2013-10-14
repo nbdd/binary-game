@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="game">
+            <div id="puzzle">
+                <div class="container digit-container">
+                    <!-- 4th digit (leftmost) -->
+                    <div class="flip-container" data-digit="4" onclick="toggleBinary(this);">
+                    	<div class="flipper">
+                    		<div class="front">
+                    			<div class="binary-digit">0</div>
+                    		</div>
+                    		<div class="back">
+                    			<div class="binary-digit">1</div>
+                    		</div>
+                    	</div>
+                    </div>
+                    
+                    
+                    <!-- 3rd digit -->
+                    <div class="flip-container" data-digit="3" onclick="toggleBinary(this);">
+                    	<div class="flipper">
+                    		<div class="front">
+                    			<div class="binary-digit">0</div>
+                    		</div>
+                    		<div class="back">
+                    			<div class="binary-digit">1</div>
+                    		</div>
+                    	</div>
+                    </div>
+                    
+                    
+                    <!-- 2nd digit-->
+                    <div class="flip-container" data-digit="2" onclick="toggleBinary(this);">
+                    	<div class="flipper">
+                    		<div class="front">
+                    			<div class="binary-digit">0</div>
+                    		</div>
+                    		<div class="back">
+                    			<div class="binary-digit">1</div>
+                    		</div>
+                    	</div>
+                    </div>
+                    
+                    
+                    <!-- 1st digit (rightmost) -->
+                    <div class="flip-container" data-digit="1" onclick="toggleBinary(this);">
+                    	<div class="flipper">
+                    		<div class="front">
+                    			<div class="binary-digit">0</div>
+                    		</div>
+                    		<div class="back">
+                    			<div class="binary-digit">1</div>
+                    		</div>
+                    	</div>
+                    </div>
+                </div>
+        
+                <div class="container button-container">
+                    <div class="submit-button" onclick="submitEntry();">Go!</div>
+                </div>
+            </div>
+            <div id="reward">
+                <div class="container">
+                    <img src="reward.jpg" width="640px">
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
