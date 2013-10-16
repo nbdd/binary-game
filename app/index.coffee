@@ -7,6 +7,7 @@ class App extends Spine.Controller
   constructor: ->
     super
     @welcome = new Welcome
+    @append @welcome
 
   # Spine.Route.setup()
 
