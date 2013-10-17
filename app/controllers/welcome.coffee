@@ -17,7 +17,6 @@ class Welcome extends Spine.Controller
 
   # Invoked when .play is clicked
   play: (event) ->
-    alert 'you clicked play'
     # load 'stages' view when play button is clicked
     @html require("views/stages")()
 
