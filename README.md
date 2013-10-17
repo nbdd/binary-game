@@ -2,6 +2,25 @@
 
 This is a game designed to teach how binary works. Its also just a fun group project to learn some new skills like coffeescript, spine.js, and phonegap.
 
+#### Instructions to set up
+
+You need Node and NPM installed already
+
+Install spine.app and hem with this commmand
+  npm install -g spine.app hem
+
+Clone this to your local machine, navigate to this directory
+
+Install the dependencies with this command
+  npm install .
+
+Launch the server with
+  hem server
+
+Open the application with
+  open http://localhost:9294
+
+
 #### Technology
 - Coffee-script
 - Spine.app
