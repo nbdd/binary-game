@@ -12,12 +12,12 @@ class Welcome extends Spine.Controller
     @html require('views/welcome')
 
   # Spine shortcut for adding event listeners
-  # events:
-  #   'click .play': play
+  events:
+    'click .play': 'play'
 
   # # invoked when .play is clicked
-  # play: (event) ->
-  #   alert 'you clicked play'
+  play: (event) ->
+    alert 'you clicked play'
 
 module.exports = Welcome
 
