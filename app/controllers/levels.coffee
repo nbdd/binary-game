@@ -2,15 +2,15 @@ Spine = require('spine')
 Stage = require('models/stage')
 $       = Spine.$
 
-class Welcome extends Spine.Controller
-  className: 'welcome'
+class Levels extends Spine.Controller
+  className: 'levels'
 
   constructor: ->
     super
     @render()
 
   render: ->
-    @html require('views/welcome')
+    @html require('views/levels')
 
   # Adds event listeners
   events:
@@ -19,7 +19,8 @@ class Welcome extends Spine.Controller
   # Invoked when .play is clicked
   play: (event) ->
     # load the stages objects
-    debugger
-    @navigate("/stages")
+    @stages = Stage.all()
+    # make 'stages' view when play button is clicked
+    @html require("views/stages")(@stages)
 
-module.exports = Welcome
+module.exports = Levels
